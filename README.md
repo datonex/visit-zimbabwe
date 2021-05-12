@@ -4,7 +4,7 @@
 
 ### What is this website for?
 
-This is a website for people to learn about Zimbabwe and show places they can visit. 
+This is a website for people to learn about Zimbabwe and show places they can visit.
 
 ### What does it do?
 

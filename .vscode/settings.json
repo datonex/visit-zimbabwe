@@ -20,6 +20,6 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+   "workbench.colorTheme": "Dracula",
    "editor.defaultFormatter": "HookyQR.beautify",
 }

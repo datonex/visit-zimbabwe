@@ -131,6 +131,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 
 - The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
+- Flame lily obtained from [Unsplash](https://unsplash.com/photos/x4IzVd7tGYs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 - The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
 
 ### Acknowledgements

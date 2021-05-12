@@ -3,58 +3,110 @@
 /* General styling */
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 h1, h2, h3, h4 {
-    font-family: Lobster, sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: black;
+  font-family: Lobster, sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Header */
+
 header {
-    background: url(../images/giraffe-savannah-home.jpg) center center / cover no-repeat;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
+  background: url(../images/giraffe-savannah-home.jpg) center center / cover no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
 img {
-    height: 50px;
-    width: 40px;
-    float: left;
-    margin-left: 5px;
+  height: 50px;
+  width: 40px;
+  float: left;
+  margin-left: 5px;
 }
 
 h1 {
-    position: relative;
-    left: 5px;
-    top: 5px;
+  position: relative;
+  left: 5px;
+  top: 5px;
 }
 
 #menu {
-    line-height: 75px;
-    position: absolute;
-    right: 5px;
-    top: 0;
+  line-height: 75px;
+  position: absolute;
+  right: 5px;
+  top: 0;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 #menu a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+#left-content {
+  margin-top: 30px;
+  padding-top: 5px;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+#f-right-content {
+  padding-top: 5px;
+  width: 33%;
+  float: right;
+  text-align: center;
+  display: inline;
+}
+
+#centre-content {
+  width: 32%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #f8ad7d;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks a {
+  text-decoration: none;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 1.5rem;
+  margin: 1%;
+  padding: 1%;
 }

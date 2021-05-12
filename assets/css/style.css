@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: Lobster, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}

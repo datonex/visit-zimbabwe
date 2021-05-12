@@ -1,25 +1,25 @@
-# Project name
-
+# Visit Zimbabwe
 
 ## Overview
 
 ### What is this website for?
 
-This is a website for people to learn about Hippopotami and/or then test them on their knowledge.
+This is a website for people to learn about Zimbabwe and show places they can visit. 
 
 ### What does it do?
 
-This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
+This website will show the different locations they can visit ranging from national parks to national history. it also provides travel information, how to reach the country etc.
 
 ### How does it work
 
-This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
+This website uses generic **HTML** and **CSS** animations to route viewers through the site  The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
 
-## UX
+### UX
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -55,8 +55,6 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Technologies Used
 
 n this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-### Some the tech used includes:
 
 - **HTML**, **CSS** and **Javascript**
   - Base languages used to create website
@@ -99,12 +97,12 @@ If this section grows too long, you may want to split it off into a separate fil
   - Microsoft Edge
   - Mozilla Firefox
 
-
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
@@ -121,10 +119,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 6. The project will now run on [localhost](http://127.0.0.1:8080)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
 
-
 ## Credits
 
 ### Content
+
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The information used to create this site was from a number of sources
   - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
@@ -134,7 +132,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
 - The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
-
 
 ### Acknowledgements
 

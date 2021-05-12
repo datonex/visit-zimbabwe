@@ -12,7 +12,7 @@ This website will show the different locations they can visit ranging from natio
 
 ### How does it work
 
-This website uses generic **HTML** and **CSS** animations to route viewers through the site  The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
+This website uses generic **HTML** and **CSS** animations to route viewers through the site. (add link to website here)
 
 ### UX
 

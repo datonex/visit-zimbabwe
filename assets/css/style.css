@@ -11,6 +11,7 @@
 html, body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
+  background-color: #f7d4bf;
 }
 
 h1, h2, h3, h4 {
@@ -20,7 +21,11 @@ h1, h2, h3, h4 {
   color: black;
 }
 
-/* Header */
+/* Header styles */
+header {
+  position: sticky;
+  height: 60px;
+}
 .active {
    text-decoration: underline black solid;
 }
@@ -34,14 +39,12 @@ h1, h2, h3, h4 {
   opacity: 0.8;
 }
 
-
 img {
   height: 50px;
   width: 40px;
   float: left;
   margin-top: 5px;
   margin-left: 5px;
-  
 }
 
 h1 {
@@ -54,7 +57,6 @@ header a {
   text-decoration: none;
   color: black;
 }
-
 
 #menu {
   line-height: 75px;
@@ -74,6 +76,81 @@ header a {
   color: white;
 }
   /* animation zoom effect for menu buttons */
+
+/* contact us form styling */
+
+.section-bg {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.centered-element {
+  background-color: whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+}
+
+.float-left-alone {
+  float: left;
+  width: 100%;
+}
+
+.float-middle {
+  clear: both;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.text-input, .text-input-alone, .textarea-input {
+  background: transparent;
+  width: 90%;
+  height: 25px;
+  margin: 5px 0 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.text-input-alone , .textarea-input{
+  width: 95%;
+}
+
+.textarea-input {
+  height: 12rem;
+}
+
+.text-input:hover, .text-input-alone:hover, .textarea-input:hover {
+  border-color: darkmagenta;
+}
+
+.submit-button {
+  margin: 20px 0 45% 50%;
+  border-radius: 4px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 100%;
+  background-color: teal;
+  color: white;
+  display: block;
+  clear: both;
+}
+
+.submit-button:hover {
+  background-color: turquoise;
+  color: black;
+}
 
 /* footer */
 

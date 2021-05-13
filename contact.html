@@ -19,24 +19,37 @@
         <li><a href="booking.html">Booking</a></li>
         <li><a href="travelinfo.html">Travel Information</a></li>
         <li><a href="#about-zimbabwe">About Zimbabwe</a></li>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
       </ul>
     </nav>
   </header>
-  <section>
+
+  <section class="centered-element section-bg">
+    <h2>Contact us</h2>
     <form action="https://formdum.codeinstitute.net/" method="POST">
-    <!-- personal details -->
-      <label for="fname">First Name</label>
-      <input id="fname" type="text" name="first-name" placeholder="John" class="text-input" required>
-
-      <label for="lname">Last Name</label>
-      <input id="lname" type="text" name="last-name" placeholder="Smith" class="text-input" required>
-
-      <label for="email">Email Address</label>
-      <input id="email" type="email" name="email" placeholder="johnsmith@email.com" class="text-input" required>
-
-      <label for="country">Country</label>
-      <select id="country" name="country">
+    
+      <div class="float-left">
+        <label for="fname">First Name</label>
+         <br>
+        <input id="fname" type="text" name="first-name" placeholder="John" class="text-input" required>
+      </div>
+    
+      <div class="float-right">
+        <label for="lname">Last Name</label>
+         <br>
+        <input id="lname" type="text" name="last-name" placeholder="Smith" class="text-input" required>
+      </div>
+       
+      <div class="float-left">
+        <label for="email">Email Address</label>
+         <br>
+        <input id="email" type="email" name="email" placeholder="johnsmith@email.com" class="text-input" required>
+      </div>
+      
+      <div class="float-right">
+        <label for="country">Country</label>
+         <br>
+        <select id="country" name="country" class="text-input" required>
         <option value="" disabled selected>Choose country</option>
         <option value="Afganistan">Afghanistan</option>
         <option value="Albania">Albania</option>
@@ -284,31 +297,42 @@
         <option value="Zaire">Zaire</option>
         <option value="Zambia">Zambia</option>
         <option value="Zimbabwe">Zimbabwe</option>
-      </select>
-
-      <label for="subject">Subject</label>
-      <select name="subject" id="subject">
-        <option value="" disabled selected>Select option</option>
-        <option value="visa">Visa Information</option>
-        <option value="feedback">Feedback</option>
-        <option value="travel-agents">Travel agents</option>
-        <option value="other">Other</option>
-      </select>
-
-      <label for="message">Message</label>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-      <input id="terms" type="checkbox" name="accept-terms" value="yes" required>
-      <label for="terms">I allow the use of my personal for statistical analysis and profiling use</label>
-
-      <input id="subscribe" type="checkbox" name="accept-terms" value="yes">
-      <label for="terms">I allow the use of my personal for statistical analysis and profiling use</label>
-
+        </select>
+      </div>
+       
+      <div class="float-left-alone">
+        <label for="subject">Subject</label>
+        <br>
+        <select name="subject" id="subject" class="text-input-alone" required>
+          <option value="" disabled selected>Select option</option>
+          <option value="visa">Visa Information</option>
+          <option value="feedback">Feedback</option>
+          <option value="travel-agents">Travel agents</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+       
+      <div class="float-left-alone">
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" class="textarea-input" required></textarea>
+      </div>
+       
+      <div>
+        <input id="terms" type="checkbox" name="accept-terms" value="yes" required>
+        <label for="terms">I allow the use of my personal for statistical analysis and profiling use</label>
+      </div>
+       
+      <div>
+        <input id="subscribe" type="checkbox" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to our newsletter</label>
+      </div>
+       
       <p>
         By subscribing, you agree to visit Zimbabwe's collection and processing of your personal information for purposes of direct marketing in accordance with its Privacy Policy and Terms & Conditions. You may opt out at any time. This site is protected Google Privacy Policy and Terms of Service apply.
       </p>
 
-      <input type="submit" value="Send">
+      <input type="submit" value="Send" class="submit-button">
     </form>
   </section>
   <footer>

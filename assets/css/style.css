@@ -8,6 +8,11 @@
   border: none;
 }
 
+html, body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
 h1, h2, h3, h4 {
   font-family: Lobster, sans-serif;
   font-weight: 400;
@@ -15,39 +20,48 @@ h1, h2, h3, h4 {
   color: black;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 /* Header */
-
-header {
-  background: url(../images/giraffe-savannah-home.jpg) center center / cover no-repeat;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: -1;
+.active {
+   text-decoration: underline black solid;
 }
+
+.homepage-header {
+  height: 50vh;
+  background-image: url(../images/giraffe-savannah-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+
 img {
   height: 50px;
   width: 40px;
   float: left;
+  margin-top: 5px;
   margin-left: 5px;
+  
 }
 
 h1 {
   position: relative;
   left: 5px;
-  top: 5px;
+  top: 10px;
 }
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
 
 #menu {
   line-height: 75px;
   position: absolute;
   right: 5px;
   top: 0;
+  overflow: hidden;
 }
 
 #menu li {
@@ -56,31 +70,10 @@ h1 {
   margin-right: 20px;
 }
 
-#menu a {
-  text-decoration: none;
+#menu a:hover {
+  color: white;
 }
-
-#left-content {
-  margin-top: 30px;
-  padding-top: 5px;
-  width: 33%;
-  float: left;
-  text-align: center;
-}
-
-#f-right-content {
-  padding-top: 5px;
-  width: 33%;
-  float: right;
-  text-align: center;
-  display: inline;
-}
-
-#centre-content {
-  width: 32%;
-  margin: 0 auto;
-  text-align: center;
-}
+  /* animation zoom effect for menu buttons */
 
 /* footer */
 
@@ -93,20 +86,65 @@ footer {
   background-color: #f8ad7d;
 }
 
-.social-networks {
+footer ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5em 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding-right: 2em;
+  position: relative;
+}
+
+#nav-bar {
+  width: 100vw;
+  font-weight: bold;
+}
+
+footer li:first-child {
+  margin-right: auto;
+}
+
+footer li:last-child {
+  margin-left: auto;
+}
+
+footer i {
+  font-size: larger;
+}
+
+/* .left-content {
+  margin-top: 10px;
+  padding-top: 5px;
+  width: 33%;
+  float: left;
   text-align: center;
 }
 
-.social-networks a {
-  text-decoration: none;
+.centre-content {
+  width: 33%;
+  padding-top: 5px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.social-networks > li {
-  display: inline;
+.right-content {
+  margin-top: 10px;
+  padding-top: 5px;
+  width: 33%;
+  float: right;
+  text-align: center;
 }
 
-.social-networks i {
-  font-size: 1.5rem;
-  margin: 1%;
-  padding: 1%;
-}
+.social-networks {
+  margin: 10px 0 70px 70px;
+  font-size: 25px;
+  column-count: 5;
+  column-gap: 30px;
+} */

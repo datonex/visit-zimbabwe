@@ -8,11 +8,11 @@ This is a website for people to learn about Zimbabwe and show places they can vi
 
 ### What does it do?
 
-This website will show the different locations they can visit ranging from national parks to national history. it also provides travel information, how to reach the country etc.
+This website will show the different locations they can visit ranging from national parks to national history. it also provides travel information, how to reach the country and any important documemnts and medical issues that need to be address before entering the country
 
 ### How does it work
 
-This website uses generic **HTML** and **CSS** animations to route viewers through the site. (add link to website here)
+This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser [**here**](https://datonex.github.io/visit-zimbabwe/) 
 
 ### UX
 
@@ -49,25 +49,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
-- None
+- Add a page where you can make a booking for a particular destinations. this includes adding a vitual online basket so that users can see what they have already selected (requires **Javascript** knowledge) Fore this reason I decided to removing the booking page from the website becaue it would be too incomplete and not provide a positive user experience.
 
 ## Technologies Used
 
 n this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- **HTML**, **CSS** and **Javascript**
+- **HTML** and **CSS** 
   - Base languages used to create website
-- [AngularJS](https://angularjs.org/)
-  - We use **AngularJS** to handle page routing and to build custom directives
-- [Bootstrap](http://getbootstrap.com/)
-  - We use **Bootstrap** to give our project a simple, responsive layout
-- [JQuery](https://jquery.com)
-  - Use **JQuery** for boostrap and displaying modal
-- [npm](https://www.npmjs.com/)
-  - We use **npm** to install **http-server** in order to view the site
-- [Bower](https://bower.io)
-  - Using **Bower** to manage package dependencies
+- [Fontawesome *v.5.15.3*](https://fontawesome.com/)
+  - We use **Font Awesome** javascript link to insert icons in the website to make site more visually appealing and easy to navigate.
 
 ## Testing
 
@@ -123,17 +114,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The information used to create this site was from a number of sources
-  - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-  - The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
+  - Zimbabwe tourism page on [Zimbabwe tourism](https://www.zimbabwetourism.net/)
+  - The Lonely Planet [Lonely Planet](https://www.lonelyplanet.com/zimbabwe)
 
 ### Media
 
 - The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- Flame lily obtained from [Unsplash](https://unsplash.com/photos/x4IzVd7tGYs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
+- Flame lily obtained from [Unsplash](https://unsplash.com/)
+- The video used on to show overview of Zimbabwe belongs to Dillan Prinsloo on [Youtube](https://www.youtube.com/watch?v=9xbVx9GmbpY)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I received inspiration for this project from following tourists sites
+
+-Official Qatar tourism [Visit Qatar](https://www.visitqatar.qa/en/home)
+- A generic parallax website by Jolly Kalam [Parallaxsite](https://jolly-kalam-23776e.netlify.app/parallaxsite/)

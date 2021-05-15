@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Places to visit in Zimbabwe on holiday">
   <meta name="keywords" content="zimbabwe, southern africa, safari, waterfall, holiday, warm"> 
-
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Booking</title>
 </head>
@@ -16,7 +15,6 @@
     <a href="index.html"><h1>Zimbabwe</h1></a>
     <nav id="menu">
       <ul>
-        <li><a href="booking.html" class="active">Booking</a></li>
         <li><a href="travelinfo.html">Travel Information</a></li>
         <li><a href="#about-zimbabwe">About Zimbabwe</a></li>
         <li><a href="index.html">Home</a></li>
@@ -26,6 +24,68 @@
   </header>
   <section>
     <form action="https://formdump.codeintitute.net/" method="POST">
+      <fieldset>
+        <legend>When would you like to visit?</legend>
+        <label for="check-in"><i class="far fa-calendar-check"></i>Check-in date</label>
+        <input id="check-in" type="date" name="check-in" value="check-in" required>
+        <label for="check-out"><i class="far fa-calendar-check"></i>Check-out date</label>
+        <input id="check-out" type="date" name="check-out" value="check-out" required>
+      </fieldset>
+      <fieldset>
+        <legend>Guests</legend>
+        <label for="adults">adults</label>
+        <select name="adults" id="guests">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+        </select>
+        <label for="children">children</label>
+        <select name="children" id="children">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Your Details</legend>
+      
+      </fieldset>
     </form>
   </section>
   <footer>

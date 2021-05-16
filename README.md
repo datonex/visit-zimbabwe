@@ -12,7 +12,7 @@ This website will show the different locations they can visit ranging from natio
 
 ### How does it work
 
-This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser [**here**](https://datonex.github.io/visit-zimbabwe/) 
+This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser [**here**](https://datonex.github.io/visit-zimbabwe/)
 
 ### UX
 
@@ -55,7 +55,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 n this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- **HTML** and **CSS** 
+- **HTML** and **CSS**
   - Base languages used to create website
 - [Fontawesome *v.5.15.3*](https://fontawesome.com/)
   - We use **Font Awesome** javascript link to insert icons in the website to make site more visually appealing and easy to navigate.
@@ -120,13 +120,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 
-- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- Flame lily obtained from [Unsplash](https://unsplash.com/)
+- The photos used in this site were obtained from
+  - [Pixabay](https://pixabay.com/)
+  - [Unsplash](https://unsplash.com/)
+  - "What to pack section" from [Pexels](https://pexels.com)hand
 - The video used on to show overview of Zimbabwe belongs to Dillan Prinsloo on [Youtube](https://www.youtube.com/watch?v=9xbVx9GmbpY)
 
 ### Acknowledgements
 
 I received inspiration for this project from following tourists sites
 
--Official Qatar tourism [Visit Qatar](https://www.visitqatar.qa/en/home)
+- Official Qatar tourism [Visit Qatar](https://www.visitqatar.qa/en/home)
+
 - A generic parallax website by Jolly Kalam [Parallaxsite](https://jolly-kalam-23776e.netlify.app/parallaxsite/)

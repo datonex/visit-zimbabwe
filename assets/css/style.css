@@ -11,6 +11,7 @@
 html, body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
+  width: 100vw;
   background-color: #f7d4bf;
 }
 
@@ -21,26 +22,35 @@ h1, h2, h3, h4 {
   color: black;
 }
 
+section {
+  margin: 5px;
+}
+
+section h3 {
+  float: left;
+  margin: 5px;
+}
+
 legend {
   text-transform: capitalize;
 }
 
-/* Header styles */
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header styles homepage*/
 header {
-  position: sticky;
   height: 60px;
+  margin: 5px;
 }
 .active {
    text-decoration: underline black solid;
-}
-
-.homepage-header {
-  height: 50vh;
-  background-image: url(../images/giraffe-savannah-home.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.8;
 }
 
 img {
@@ -57,9 +67,23 @@ h1 {
   top: 10px;
 }
 
-header a {
-  text-decoration: none;
-  color: black;
+#logo {
+  float:left;
+}
+
+.homepage-header {
+  height: 50vh;
+  background-image: url(../images/giraffe-savannah-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.nav-header {
+  background-color: #fbcea8;
+  width: 100vw;
+  height: 60px;
 }
 
 #menu {
@@ -79,7 +103,25 @@ header a {
 #menu a:hover {
   color: white;
 }
-  /* animation zoom effect for menu buttons */
+/* animation zoom effect for menu buttons */
+
+/* travel information styling */
+
+#travel-info-header {
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#travel-container {
+  position: relative;
+  top: 122px;
+}
+
+
 
 /* contact us form styling */
 

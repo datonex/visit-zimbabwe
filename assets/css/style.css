@@ -13,6 +13,7 @@ body {
   background-color: #f7d4bf;
   margin-bottom: 60px;
   height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -70,7 +71,7 @@ header {
    text-decoration: underline black solid;
 }
 
-img {
+#logo {
   height: 65px;
   width: 50px;
   float: left;
@@ -115,8 +116,20 @@ h4 {
   z-index: -1;
 }
 
+#header-left {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+#header-right {
+  position: absolute;
+  top: 60px;
+  left: 550px;
+}
+
 .nav-container {
-  background-color: #fbcea8;
+  background-color: #fdcba6;
   width: 100vw;
   height: 100px;
 }
@@ -138,17 +151,52 @@ h4 {
 #menu a:hover {
   color: white;
 }
-  /* animation zoom effect for menu buttons */
 
-  /* homepage content */
-  
+/* animation zoom effect for menu buttons */
+
+/* homepage content */
+
+/* photo grid */
+
+#img-grid {
+  width: 80%;
+  height: fit-content;
+  margin-left: 10%;
+}
+
+#img-grid img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#img-row-top {
+  display: grid;
+  grid-template-columns: 50.75% 49.25%;
+  grid-template-rows: 100%;
+  place-self: center;
+  height: 33%;
+}
+
+#img-row-centre {
+  display: grid;
+  grid-template-columns: 36% 64%;
+  place-self: center;
+}
+
+#img-row-bottom {
+  display: grid;
+  grid-template-columns: 51.5% 48.5%;
+  place-self: center;
+}
+
 /* travel information page styling */
 
 #travel-info-container h2 {
   text-align: center;
 }
 
-  /* "What to pack" section styling */
+/* "What to pack" section styling */
 
 .pack-box-left {
   width: 48vw;
@@ -283,7 +331,7 @@ button a {
   color: black;
 }
 
-/* footer */
+/* footer styling*/
 
 .footer {
   height: 60px;

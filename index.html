@@ -13,7 +13,7 @@
 <body>
   <header class="clear">
     <div class="nav-container box">
-      <a href="index.html"><img src="assets/images/black-zimbabwe-bird-logo.png" alt="zimbabwe national bird"></a>
+      <a href="index.html"><img src="assets/images/black-zimbabwe-bird-logo.png" id="logo" alt="zimbabwe national bird"></a>
       <a href="index.html"><h1>Zimbabwe</h1></a>
       <nav id="menu">
         <ul>
@@ -26,54 +26,74 @@
   </header>
   <section>
     <div class="homepage-header box">
-      <h2>Looking to go on holiday?</h2>
-      <h2>Visit Zimbabwe</h2>
+      <div id="header-left"><h2>Looking to go on holiday?</h2></div>
+      <div id="header-right"><h2>Visit Zimbabwe</h2></div>
     </div>
   </section>
   <div class="clear"></div>
-  <div class="homepage-content-container">
-    <section>
-      <div class=" clear"><h2>discover hidden gems</h2></div>
-      <div class="clear"></div>
-      <div>images</div>
-    </section>
-    <section>
-      <h2 id="about-zimbabwe">About Zimbabwe</h2>
-      <span>iframe left, map</span>
-      <span>content middle</span>
-      <span>image of zimbabwe right</span>
-    </section>
-    <section>
-      <h2>Climate</h2>
-      <p>content (left)</p>
-      <span>iframe rigt, video </span>
-    </section>
-  </div> 
-  
+  <section>
+    <div class=" clear"><h2>discover hidden gems</h2></div>
+    <div class="clear"></div>
+    <div id="img-grid" class="clear">
+      <div id="img-row-top" class="img-row-height">
+        <div id="img-row-top-left">
+          <img src="assets/images/grid-wild-seed-pod-sculpture.jpeg" alt="large sculpture imitating the inside of a seed pod">
+        </div>
+        <div id="img-row-top-right">
+          <img src="assets/images/grid-Mt-Nyangani.jpg" alt="beautiful mountain overlooked from the summit">
+          <img src="assets/images/grid-chivero.jpeg" alt="lake surrounded by vegetation">
+        </div>
+      </div>
+      <div id="img-row-centre" class="img-row-height">
+        <img src="assets/images/grid-victoria-falls.jpg" alt="large waterfall">
+        <img src="assets/images/grid-national-gallery-museum.jpg" alt="national gallery of zimbabwe building decorated by various sculptures">
+      </div>
+      <div id="img-row-bottom" class="img-row-height">
+        <img src="assets/images/grid-elephants-safari.jpg" alt="safari open cart in safari overlooking elephants on a dirt road">
+        <img src="assets/images/grid-balancing-rocks.jpg" alt="large rocks stacked on top of each other">
+      </div>  
+    </div>
+  </section>
+  <div class="clear"></div>
+  <section>
+    <h2 id="about-zimbabwe">About Zimbabwe</h2>
+    <span>iframe left, map</span>
+    <span>content middle</span>
+    <span>image of zimbabwe right</span>
+  </section>
+  <section>
+    <h2>Climate</h2>
+    <p>content (left)</p>
+    <span>iframe rigt, video </span>
+  </section> 
   <footer class="footer">
     <div class="footer-container">
       <ul>
         <li><a href="contact.html">Contact us</a></li>
         <li>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i>
+          </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i>
+          </a>
         </li>
         <li>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i>
+          </a>
         </li>
         <li>
           <a href="https://www.pinterest.com" target="_blank" rel="noopener" aria-label="visit our pinterest page (opens in a new tab)"><i class="fab fa-pinterest"></i>
-        </a>
+          </a>
         </li>
         <li>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i>
+          </a>
         </li>
         <li>Copyright © Zim Tourism</li>
       </ul>
     </div>
-    
+  </footer>
 
     <!-- <span class="left-content"><a href="contact.html">Contact us</a></span>
     
@@ -92,9 +112,7 @@
   
     <span class="right-content">Copyright © Zim Tourism</span> -->
 
-  </footer>
-
-<!-- font awesome script  -->
-<script src="https://kit.fontawesome.com/20692f6912.js" crossorigin="anonymous"></script>    
+  <!-- font awesome script  -->
+  <script src="https://kit.fontawesome.com/20692f6912.js" crossorigin="anonymous"></script>    
 </body>
 </html>

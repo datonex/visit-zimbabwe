@@ -114,16 +114,23 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The information used to create this site was from a number of sources
+- The information used to create this site were from a number of sources
   - Zimbabwe tourism page on [Zimbabwe tourism](https://www.zimbabwetourism.net/)
   - The Lonely Planet [Lonely Planet](https://www.lonelyplanet.com/zimbabwe)
 
 ### Media
 
 - The photos used in this site were obtained from
+
   - [Pixabay](https://pixabay.com/)
   - [Unsplash](https://unsplash.com/)
-  - "What to pack section" from [Pexels](https://pexels.com)hand
+  - "What to pack section images" from [Pexels](https://pexels.com)
+  - Mt Nyangani summit taken by [Seabifar](https://commons.wikimedia.org/w/index.php?curid=76195310) Own work, under CC BY-SA 4.0 [license](https://creativecommons.org/licenses/by-sa/4.0/)
+  - Wild seed pod sculpture by Arthur Fata photographed by [Zaian](https://commons.wikimedia.org/w/index.php?curid=3618743) under CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
+
+  - National Gallery of Zimbabwe taken by [Awinda under](https://commons.wikimedia.org/w/index.php?curid=22137862) CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
+  - Chivero Rcreational park taken by [Babakathy](https://commons.wikimedia.org/w/index.php?curid=18482024)
+
 - The video used on to show overview of Zimbabwe belongs to Dillan Prinsloo on [Youtube](https://www.youtube.com/watch?v=9xbVx9GmbpY)
 
 ### Acknowledgements

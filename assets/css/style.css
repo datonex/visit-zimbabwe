@@ -196,6 +196,15 @@ h4 {
   place-self: center;
 }
 
+.hide {
+  display: none;
+  margin: 0 4px;
+}
+
+#img-grid img:hover + .hide {
+display: block;
+}
+
 /* About zimbabwe section styling */
 
 #intro-content {

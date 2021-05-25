@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact us</title>
 </head>
-<body>
+<body class="no-scroll">
   <header class="clear">
     <div class="nav-container box">
       <a href="index.html"><img src="assets/images/black-zimbabwe-bird-logo.png" id="logo" alt="zimbabwe national bird"></a>
@@ -18,34 +18,30 @@
       <nav id="menu">
         <ul>
           <li><a href="travelinfo.html">Travel Information</a></li>
-          <li><a href="#about-zimbabwe">About Zimbabwe</a></li>
+          <li><a href="index.html#about-zimbabwe">About Zimbabwe</a></li>
           <li><a href="index.html" class="active">Home</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <section class="centered-element section-bg">
+  <section class="contact-container contact-bg">
     <h2>Contact us</h2>
     <form action="https://formdum.codeinstitute.net/" method="POST">
-    
       <div class="float-left">
         <label for="fname">First Name</label>
          <br>
         <input id="fname" type="text" name="first-name" placeholder="John" class="text-input" required>
       </div>
-    
       <div class="float-right">
         <label for="lname">Last Name</label>
          <br>
         <input id="lname" type="text" name="last-name" placeholder="Smith" class="text-input" required>
       </div>
-       
       <div class="float-left">
         <label for="email">Email Address</label>
          <br>
         <input id="email" type="email" name="email" placeholder="johnsmith@email.com" class="text-input" required>
       </div>
-      
       <div class="float-right">
         <label for="country">Country</label>
          <br>
@@ -299,7 +295,6 @@
         <option value="Zimbabwe">Zimbabwe</option>
         </select>
       </div>
-       
       <div class="float-left-alone">
         <label for="subject">Subject</label>
         <br>
@@ -311,27 +306,22 @@
           <option value="other">Other</option>
         </select>
       </div>
-       
       <div class="float-left-alone">
         <label for="message">Message</label>
         <br>
         <textarea name="message" id="message" class="textarea-input" required></textarea>
       </div>
-       
       <div>
         <input id="terms" type="checkbox" name="accept-terms" value="yes" required>
         <label for="terms">I allow the use of my personal for statistical analysis and profiling use</label>
       </div>
-       
       <div>
         <input id="subscribe" type="checkbox" name="subscribe" value="yes">
         <label for="subscribe">Subscribe to our newsletter</label>
       </div>
-       
       <p>
         By subscribing, you agree to visit Zimbabwe's collection and processing of your personal information for purposes of direct marketing in accordance with its Privacy Policy and Terms & Conditions. You may opt out at any time. This site is protected Google Privacy Policy and Terms of Service apply.
       </p>
-
       <input type="submit" value="Send" class="submit-button">
     </form>
   </section>

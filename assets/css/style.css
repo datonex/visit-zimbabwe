@@ -10,12 +10,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background:
-  #f7d4bf
-    url(../images/giraffe-savannah-home.jpg)
-    center center / cover
-    no-repeat
-    fixed;
+  background:#f7d4bf;
   margin-bottom: 60px;
   height: 100%;
   width: 100%;
@@ -73,8 +68,7 @@ a {
 
 /* Header styles homepage*/
 header {
-  margin: 0px 5px 0 5px;
-  height: 100px;
+  height: 80px;
   position: fixed;
   top: 0;
 }
@@ -95,19 +89,19 @@ h1 {
   position: relative;
   left: 5px;
   top: 10px;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #logo {
@@ -116,7 +110,7 @@ h4 {
 
 .homepage-header {
   position: relative;
-  top: 100px;
+  top: 72px;
   height: 90vh;
   width: 100%;
   margin-bottom: 100px;
@@ -144,7 +138,7 @@ h4 {
 .nav-container {
   background-color: #fdcba6;
   width: 100vw;
-  height: 100px;
+  height: 80px;
 }
 
 #menu {
@@ -172,9 +166,9 @@ h4 {
 /* photo grid */
 
 #img-grid {
-  width: 80%;
+  width: 100%;
   height: fit-content;
-  margin-left: 10%;
+  background-color: black;
 }
 
 #img-grid img {
@@ -184,6 +178,27 @@ h4 {
 }
 
 #img-row-top {
+  display: grid;
+  grid-template-columns: 24% 24% 52%;
+  grid-template-rows: 100%;
+  place-self: center;
+}
+
+#img-row-bottom {
+  display: grid;
+  grid-template-columns: 19% 40.5% 42.5% ;
+  grid-template-rows: 100%;
+  place-self: center;
+}
+
+#img-row-column {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 48% 52%;
+  place-self: center;
+}
+
+/* #img-row-top {
   display: grid;
   grid-template-columns: 50.75% 49.25%;
   grid-template-rows: 100%;
@@ -200,7 +215,7 @@ h4 {
   display: grid;
   grid-template-columns: 51.5% 48.5%;
   place-self: center;
-}
+} */
 
 .hide {
   display: none;
@@ -391,18 +406,30 @@ button a {
 
 /* contact us page and form styling */
 
-.section-bg {
-  background-color: white;
-  width: 100%;
-  height: 100%;
+.no-scroll {
+  overflow-y: hidden;
+  background: 
+    url(../images/giraffe-savannah-home.jpg)
+    center center / cover
+    no-repeat
+    fixed;
 }
 
-.centered-element {
-  background-color: whitesmoke;
+.contact-bg {
+  background: rgba(247, 212, 191, 0.9);
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.contact-container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 80px auto 0;
   width: 50%;
+}
+
+.contact-container p {
+  font-size: 12px;
 }
 
 .float-left-alone {
@@ -438,7 +465,7 @@ button a {
 }
 
 .submit-button {
-  margin: 20px 0 45% 50%;
+  margin: 10px 0 45% 50%;
   border-radius: 4px;
   padding: 10px 30px;
   text-align: center;

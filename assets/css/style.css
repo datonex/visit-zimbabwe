@@ -15,6 +15,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -58,6 +59,11 @@ a {
 
 .box {
   box-sizing: border-box;
+}
+
+.default-container {
+  width: 100%;
+  margin: 0 10%;
 }
 
 /* Header styles homepage*/
@@ -192,19 +198,14 @@ h4 {
 
 /* About zimbabwe section styling */
 
-#intro-zimbabwe {
-  width: 100%;
-  margin: 0 10%;
-}
-
 #intro-content {
   width: 30%;
   float: left;
+  margin-top: 5%;
 }
 
 #facts-container {
   margin: 0 10%;
-  font-size: 18.45px;
 }
 
 #facts-container li {
@@ -217,6 +218,20 @@ h4 {
   width: 300px;
   height: 200px;
   margin: 0 20%;
+}
+
+#climate-container {
+  width: 100%;
+  margin: 0 10%;
+}
+
+#climate-container p {
+  width: 40%;
+}
+
+#climate-video {
+  margin: 0 5%;
+  object-fit: contain;
 }
 
 /* travel information page styling */

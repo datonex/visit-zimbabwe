@@ -114,14 +114,20 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The information used to create this site were from a number of sources
-  - Zimbabwe tourism page on [Zimbabwe tourism](https://www.zimbabwetourism.net/)
-  - The Lonely Planet [Lonely Planet](https://www.lonelyplanet.com/zimbabwe)
+The information used to create this site were from a number of sources
+
+- Travel information page
+  - [Zimbabwe tourism](https://www.zimbabwetourism.net/)
+  - [Lonely Planet](https://www.lonelyplanet.com/zimbabwe)
+- About Zimbabwe section copied from [Wikipedia](https://en.wikipedia.org/wiki/Zimbabwe)
+- [10 Facts on Zimbabwe](https://en.uitm.edu.eu/news/10-facts-about-zimbabwe/)
+- Climate information copied from
+  - [Britanica](https://www.britannica.com/place/Zimbabwe/Climate)
+  - [Wikipedia](https://en.wikipedia.org/wiki/Zimbabwe)
 
 ### Media
 
 - The photos used in this site were obtained from
-
   - [Pixabay](https://pixabay.com/)
   - [Unsplash](https://unsplash.com/)
   - "What to pack section images" from [Pexels](https://pexels.com)

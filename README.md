@@ -119,8 +119,18 @@ The information used to create this site were from a number of sources
 - Travel information page
   - [Zimbabwe tourism](https://www.zimbabwetourism.net/)
   - [Lonely Planet](https://www.lonelyplanet.com/zimbabwe)
+
 - About Zimbabwe section copied from [Wikipedia](https://en.wikipedia.org/wiki/Zimbabwe)
+  - [Chapungu Sculpture Park](https://en.wikipedia.org/wiki/Chapungu_Sculpture_Park)
+  - [Mt Nyangani](https://en.wikipedia.org/wiki/Mount_Nyangani)
+  - [Lake Chivero National Park](https://en.wikipedia.org/wiki/Lake_Chivero_Recreational_Park)
+  - [Victoria Falls](https://en.wikipedia.org/wiki/Victoria_Falls)
+  - [National Gallery of Zimbabwe](https://en.wikipedia.org/wiki/National_Gallery_of_Zimbabwe)
+  - [Hwange National Park](https://en.wikipedia.org/wiki/Hwange_National_Park)
+  - [Chiremba Balancing Rocks](https://zimfieldguide.com/harare/chiremba-epworth-balancing-rocks)
+
 - [10 Facts on Zimbabwe](https://en.uitm.edu.eu/news/10-facts-about-zimbabwe/)
+
 - Climate information copied from
   - [Britanica](https://www.britannica.com/place/Zimbabwe/Climate)
   - [Wikipedia](https://en.wikipedia.org/wiki/Zimbabwe)
@@ -133,7 +143,6 @@ The information used to create this site were from a number of sources
   - "What to pack section images" from [Pexels](https://pexels.com)
   - Mt Nyangani summit taken by [Seabifar](https://commons.wikimedia.org/w/index.php?curid=76195310) Own work, under CC BY-SA 4.0 [license](https://creativecommons.org/licenses/by-sa/4.0/)
   - Wild seed pod sculpture by Arthur Fata photographed by [Zaian](https://commons.wikimedia.org/w/index.php?curid=3618743) under CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
-
   - National Gallery of Zimbabwe taken by [Awinda under](https://commons.wikimedia.org/w/index.php?curid=22137862) CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
   - Chivero Rcreational park taken by [Babakathy](https://commons.wikimedia.org/w/index.php?curid=18482024)
 

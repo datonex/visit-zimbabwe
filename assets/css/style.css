@@ -111,7 +111,7 @@ h4 {
 .homepage-header {
   position: relative;
   top: 72px;
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   margin-bottom: 100px;
   background: 
@@ -293,9 +293,12 @@ display: block;
 /* About zimbabwe section styling */
 
 #intro-content {
-  width: 30%;
-  float: left;
+  width: 40%;
   margin-top: 5%;
+}
+
+#map-container {
+  width: 50%;
 }
 
 #facts-container {
@@ -308,6 +311,10 @@ display: block;
   text-transform: capitalize;
 }
 
+#flame-lily-content {
+  float: left;
+}
+
 #flame-lily-container img {
   width: 300px;
   height: 200px;
@@ -316,16 +323,24 @@ display: block;
 
 #climate-container {
   width: 100%;
-  margin: 0 10%;
 }
 
-#climate-container p {
+#climate-content {
+  float: left;
+}
+
+#climate-content {
   width: 40%;
 }
 
 #climate-video {
   margin: 0 5%;
   object-fit: contain;
+}
+
+#climate-iframe {
+  width: 450px;
+  height: 250px;
 }
 
 /* travel information page styling */
@@ -337,22 +352,16 @@ display: block;
   text-align: left;
 }
 
-#travel-content {
-  margin: 0 1vw 0;
-}
-
-
-
 /* "What to pack" section styling */
 
 .pack-box {
-  height: 250px;
+  height: fit-content;
 }
 
 .pack-image {
   height: 240px;
   width: 240px;
-  margin: 0 30px 5px;
+  margin: 0 5% 5px;
   border-radius: 2px; 
 }
 
@@ -413,7 +422,7 @@ display: block;
 }
 
 .category-column {
-  margin: 5px 10% 0;
+  margin: 5px 2% 0;
   column-count: 4;
   background-color: rgb(248,173,125, 0.2);
   padding: 10px 30px;
@@ -501,7 +510,7 @@ display: block;
 
 .footer {
   height: 60px;
-  width: 100%;
+  width: 100vw;
   
   position: fixed;
   left: 0;
@@ -529,9 +538,8 @@ footer a {
 }
 
 .footer-container {
-  width: 100vw;
+  width: 100%;
   height: 60px;
-  margin: auto;
   font-weight: bold;
 }
 
@@ -546,33 +554,4 @@ footer li:last-child {
 footer i {
   font-size: larger;
 }
-
-/* .left-content {
-  margin-top: 10px;
-  padding-top: 5px;
-  width: 33%;
-  float: left;
-  text-align: center;
-}
-
-.centre-content {
-  width: 33%;
-  padding-top: 5px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.right-content {
-  margin-top: 10px;
-  padding-top: 5px;
-  width: 33%;
-  float: right;
-  text-align: center;
-}
-
-.social-networks {
-  margin: 10px 0 70px 70px;
-  font-size: 25px;
-  column-count: 5;
-  column-gap: 30px;
-} */
+ 

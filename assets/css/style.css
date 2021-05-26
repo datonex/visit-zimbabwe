@@ -62,8 +62,8 @@ a {
 }
 
 .default-container {
-  width: 100%;
-  margin: 0 10%;
+  width: 80%;
+  margin: 0 10% 0;
 }
 
 /* Header styles homepage*/
@@ -101,7 +101,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 #logo {
@@ -329,31 +329,31 @@ display: block;
 }
 
 /* travel information page styling */
+#travel-info-container {
+  margin-top: 80px;
+}
 
 #travel-info-container h2 {
-  text-align: center;
+  text-align: left;
 }
+
+#travel-content {
+  margin: 0 1vw 0;
+}
+
+
 
 /* "What to pack" section styling */
 
-.pack-box-left {
-  width: 48vw;
+.pack-box {
   height: 250px;
-  float: left;
-  margin: 2px;
-}
-
-.pack-box-right {
-  width: 48vw;
-  height: 250px;
-  display: inline-block;
-  margin: 2px;
 }
 
 .pack-image {
   height: 240px;
   width: 240px;
-  border-radius: 2px;
+  margin: 0 30px 5px;
+  border-radius: 2px; 
 }
 
  /* Health and safety section, visas and airpots styling */
@@ -392,7 +392,7 @@ display: block;
   transform: translate(-50%, -50%);
 }
 
-div button {
+.button {
   border-radius: 4px;
   padding: 10px 30px;
   text-align: center;
@@ -400,9 +400,25 @@ div button {
   background-color: teal;
 }
 
-button a {
+.button:hover {
+  background-color: rgb(64, 224, 208, 0.9);
+}
+
+.button a {
   color: white;
 }
+
+.button a:hover {
+  color: black;
+}
+
+.category-column {
+  margin: 5px 10% 0;
+  column-count: 4;
+  background-color: rgb(248,173,125, 0.2);
+  padding: 10px 30px;
+  border-radius: 4px;
+} 
 
 /* contact us page and form styling */
 

@@ -14,7 +14,6 @@ body {
   margin-bottom: 60px;
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
   font-size: 16px;
 }
 
@@ -23,10 +22,6 @@ h1, h2, h3, h4 {
   font-weight: 400;
   text-transform: capitalize;
   color: black;
-}
-
-section {
-  margin: 5px;
 }
 
 section h3 {
@@ -67,10 +62,31 @@ a {
 }
 
 /* Header styles homepage*/
-header {
-  height: 80px;
-  position: fixed;
-  top: 0;
+.homepage-header {
+  position: relative;
+  top: 72px;
+  height: 60vh;
+  width: 100%;
+  margin-bottom: 100px;
+  background: 
+    url(../images/giraffe-savannah-home.jpg)
+    center center / cover
+    no-repeat
+    fixed;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#header-left {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+#header-right {
+  position: absolute;
+  top: 60px;
+  left: 550px;
 }
 
 .active {
@@ -108,37 +124,12 @@ h4 {
   float:left;
 }
 
-.homepage-header {
-  position: relative;
-  top: 72px;
-  height: 60vh;
-  width: 100%;
-  margin-bottom: 100px;
-  background: 
-    url(../images/giraffe-savannah-home.jpg)
-    center center / cover
-    no-repeat
-    fixed;
-  opacity: 0.8;
-  z-index: -1;
-}
-
-#header-left {
-  position: absolute;
-  top: 20px;
-  left: 16px;
-}
-
-#header-right {
-  position: absolute;
-  top: 60px;
-  left: 550px;
-}
-
 .nav-container {
   background-color: #fdcba6;
   width: 100vw;
   height: 80px;
+  position: fixed;
+  top: 0;
 }
 
 #menu {

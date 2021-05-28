@@ -15,6 +15,7 @@ body {
   height: 100%;
   width: 100%;
   font-size: 16px;
+  line-height: 30px;
 }
 
 h1, h2, h3, h4 {
@@ -22,6 +23,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
   text-transform: capitalize;
   color: black;
+  line-height: normal;
 }
 
 legend {
@@ -75,10 +77,12 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 h4 {
@@ -200,29 +204,31 @@ h4 {
 display: block;
 }
 
-/* About zimbabwe section styling */
+/* About zimbabwe page styling */
 
 .about-zimbabwe-container {
-  margin-top: 80px;
+  margin-top: 90px;
+  height: 600px;
 }
 
-#intro-container {
-  width: 50%;
+.about-zimbabwe {
+  padding: 10px 10px;
 }
 
-#intro-content {
-  width: 100%;
-  margin-top: 5%;
+.about-zimbabwe-container {
+  text-align: center;
 }
 
 #map-container {
-  width: 50%;
+  width: 100vw;
+  height: 400px;
+  margin-top: 10px;
+  padding: 10px 0;
 }
 
 #map-iframe {
-  width: 500px;
+  width: 100vw;
   height: 400px;
-  border: 0;
 }
 
 #facts-container {
@@ -233,6 +239,7 @@ display: block;
   font-size: larger;
   font-weight: 600;
   text-transform: capitalize;
+  list-style-type: none;
 }
 
 #flame-lily-content {
@@ -488,7 +495,7 @@ footer i {
   }
 
   .default-container {
-    margin: 0 2% 0;
+    margin: 0 20% 0;
   }
 
   #menu {

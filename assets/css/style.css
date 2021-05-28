@@ -252,8 +252,13 @@ display: block;
   margin: 0 20%;
 }
 
+.climate-section {
+  margin-bottom: 70px;
+}
+
 #climate-container {
   width: 100%;
+  height: 400px;
 }
 
 #climate-content {

@@ -58,29 +58,24 @@ a {
 
 /* Header styles homepage*/
 .homepage-header {
-  position: relative;
-  top: 72px;
   height: 70vh;
   width: 100%;
-  margin-bottom: 80px;
+  margin-top: 80px;
   background: 
     url(../images/giraffe-savannah-home.jpg)
     center center / cover
     no-repeat
     fixed;
   opacity: 0.8;
-  z-index: -1;
 }
-
 #header-left {
   position: absolute;
-  top: 20px;
-  left: 16px;
+  left: 5px;
 }
 
 #header-right {
   position: absolute;
-  top: 60px;
+  top: 120px;
   left: 550px;
 }
 
@@ -125,6 +120,7 @@ h4 {
   height: 80px;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 #menu {

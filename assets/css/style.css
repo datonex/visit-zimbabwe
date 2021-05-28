@@ -24,11 +24,6 @@ h1, h2, h3, h4 {
   color: black;
 }
 
-section h3 {
-  float: left;
-  margin: 5px;
-}
-
 legend {
   text-transform: capitalize;
 }

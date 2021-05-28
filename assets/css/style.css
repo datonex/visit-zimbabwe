@@ -10,7 +10,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background:#f7d4bf;
+  background: white;
   margin-bottom: 60px;
   height: 100%;
   width: 100%;
@@ -158,7 +158,7 @@ h4 {
 
 #img-grid {
   width: 100%;
-  height: fit-content;
+  height: 690%;
   background-color: black;
 }
 
@@ -172,21 +172,23 @@ h4 {
   display: grid;
   grid-template-columns: 24% 24% 52%;
   grid-template-rows: 100%;
-  place-self: center;
+  gap: 5px 5px;
+  border-bottom: 5px black solid;
 }
 
 #img-row-bottom {
   display: grid;
-  grid-template-columns: 19% 40.5% 42.5% ;
+  grid-template-columns: 25% 50% 26%;
   grid-template-rows: 100%;
-  place-self: center;
+  gap: 5px 5px;
+  overflow-x: hidden;
 }
 
 #img-row-column {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 48% 52%;
-  place-self: center;
+  gap: 5px 5px;
 }
 
 .hide {

@@ -209,6 +209,10 @@ display: block;
 
 /* About zimbabwe section styling */
 
+.about-zimbabwe-container {
+  margin-top: 80px;
+}
+
 #intro-container {
   width: 50%;
 }
@@ -272,7 +276,7 @@ display: block;
 
 /* travel information page styling */
 #travel-info-container {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 #travel-info-container h2 {

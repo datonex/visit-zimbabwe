@@ -89,11 +89,6 @@ a {
   left: 550px;
 }
 
-.homepage-header h2 {
-  opacity: 1;
-  z-index: 1;
-}
-
 .active {
    text-decoration: underline black solid;
 }

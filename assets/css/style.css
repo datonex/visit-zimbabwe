@@ -42,6 +42,10 @@ a {
   flex: 1 0 auto;
 }
 
+p {
+  font-size: 18px;
+}
+
 .clear {
   clear: both;
 }
@@ -234,7 +238,7 @@ display: block;
 
 .about-zimbabwe-container {
   margin-top: 90px;
-  height: 600px;
+  height: 500px;
 }
 
 .page-heading {

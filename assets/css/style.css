@@ -232,7 +232,7 @@ display: block;
   height: 600px;
 }
 
-.about-zimbabwe {
+.page-heading {
   padding: 10px;
 }
 
@@ -278,10 +278,6 @@ display: block;
   margin: 10px 0;
 }
 
-.climate-section {
-  
-}
-
 #climate-video {
   width: 100%;
   height: 500px;
@@ -295,10 +291,6 @@ display: block;
 /* travel information page styling */
 #travel-info-container {
   margin-top: 100px;
-}
-
-#travel-info-container h2 {
-  text-align: left;
 }
 
 /* "What to pack" section styling */

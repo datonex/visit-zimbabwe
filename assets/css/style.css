@@ -11,12 +11,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: white;
-  margin-bottom: 60px;
+  
   height: 100%;
   width: 100%;
   font-size: 16px;
   line-height: 30px;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4 {
@@ -34,6 +36,10 @@ legend {
 a {
   text-decoration: none;
   color: black;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .clear {
@@ -273,7 +279,7 @@ display: block;
 }
 
 .climate-section {
-  margin-bottom: 100px;
+  
 }
 
 #climate-video {
@@ -473,14 +479,12 @@ display: block;
 .footer {
   height: 60px;
   width: 100vw;
-  
-  position: fixed;
-  left: 0;
-  bottom: 0;
 
   background-color: #f8ad7d;
   background-attachment: scroll;
   background-position: 0 0;
+
+  flex-shrink: 0;
 }
 
 footer ul {
@@ -489,7 +493,7 @@ footer ul {
   flex-direction: row-reverse;
   justify-content: flex-end;
   align-items: center;
-  padding: 1.5em 0;
+  padding: 1em 0 0;
 }
 
 footer a {

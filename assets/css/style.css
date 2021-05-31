@@ -215,6 +215,11 @@ h4 {
   height: fit-content;
   width: 800px;
   background-color: #f7d4bf;
+  border-radius: 5px;
+}
+
+.hide p, .hide h4 {
+  padding: 5px;
 }
 
 #img-grid img:hover {
@@ -246,7 +251,6 @@ display: block;
 
 .box-header {
   margin-bottom: 10px;
-  
 }
 
 #map-container {
@@ -258,7 +262,7 @@ display: block;
 
 #map-iframe {
   width: 100vw;
-  height: 400px;
+  height: 350px;
 }
 
 .facts-section {

@@ -211,11 +211,20 @@ display: block;
 }
 
 .about-zimbabwe {
-  padding: 10px 10px;
+  padding: 10px;
 }
 
-.about-zimbabwe-container {
+.align-text-left {
+  text-align: left; 
+}
+
+.center-text {
   text-align: center;
+}
+
+.box-header {
+  margin-bottom: 10px;
+  
 }
 
 #map-container {
@@ -230,31 +239,21 @@ display: block;
   height: 400px;
 }
 
-.name-section {
+.facts-section {
   margin-top: 10px;
-  text-align: left;
   min-height: 300px;
 }
 
-#facts-container {
-  margin: 0 10%;
+.center-content {
+  margin: 20px 0 15px;
+  width: 100%;
 }
 
-#facts-container li {
-  font-size: larger;
-  font-weight: 600;
-  text-transform: capitalize;
-  list-style-type: none;
-}
-
-#flame-lily-content {
-  float: left;
-}
-
-#flame-lily-container img {
-  width: 300px;
-  height: 200px;
-  margin: 0 20%;
+.pack-image-alone {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2px; 
+  margin: 10px 0;
 }
 
 .climate-section {
@@ -296,7 +295,8 @@ display: block;
 /* "What to pack" section styling */
 
 .pack-box {
-  height: fit-content;
+  width: 100%;
+  
 }
 
 .pack-image-left {
@@ -316,13 +316,11 @@ display: block;
 }
 
 .two-column-text-left {
-  text-align: center;
   font-size: 18px;
   margin: 50px 350px 50px 0px ;
 }
 
 .two-column-text-right {
-  text-align: center;
   font-size: 18px;
   margin: 50px 0px 50px 350px;
 }

@@ -65,7 +65,6 @@ p {
 }
 
 .default-container {
-  width: 80%;
   margin: 0 10% 0;
 }
 #top-page {
@@ -168,11 +167,7 @@ h4 {
   left: 550px;
 }
 
-/* animation zoom effect for menu buttons */
-
-/* homepage content */
-
-/* photo grid */
+/* photo grid homepage */
 
 #img-grid {
   width: 100%;
@@ -241,67 +236,7 @@ display: block;
   height: 500px;
 }
 
-.page-heading {
-  padding: 10px;
-}
-
-.align-text-left {
-  text-align: left; 
-}
-
-.center-text {
-  text-align: center;
-}
-
-.box-header {
-  margin-bottom: 10px;
-}
-
-#map-container {
-  width: 100vw;
-  height: fit-content;
-  margin: 10px 0 30px;
-  padding: 10px 0;
-}
-
-#map-iframe {
-  width: 100vw;
-  height: 350px;
-}
-
-.facts-section {
-  margin-top: 10px;
-  min-height: 300px;
-}
-
-.center-content {
-  margin: 20px 0 15px;
-  width: 100%;
-}
-
-.pack-image-alone {
-  width: 100%;
-  object-fit: contain;
-  border-radius: 2px; 
-  margin: 10px 0;
-}
-
-#climate-video {
-  width: 100%;
-  height: 500px;
-}
-
-#climate-iframe {
-  height: 100%;
-  width: 100%;
-}
-
-/* travel information page styling */
-#travel-info-container {
-  margin-top: 100px;
-}
-
-/* "What to pack" section styling */
+/* two column styling for image and content */
 
 .pack-box {
   width: 100%;
@@ -333,7 +268,66 @@ display: block;
   margin: 50px 0px 50px 350px;
 }
 
- /* Health and safety section, visas and airpots styling */
+.page-heading {
+  padding: 10px;
+}
+
+.align-text-left {
+  text-align: left; 
+}
+
+.center-text {
+  text-align: center;
+}
+
+.box-header {
+  margin-bottom: 10px;
+}
+
+.facts-section {
+  margin-top: 10px;
+  min-height: 300px;
+}
+
+.center-content {
+  margin: 20px 0 15px;
+  width: 100%;
+}
+
+.pack-image-alone {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2px; 
+  margin: 10px 0;
+}
+
+#map-container {
+  width: 100vw;
+  height: fit-content;
+  margin: 10px 0 30px;
+  padding: 10px 0;
+}
+
+#map-iframe {
+  width: 100vw;
+  height: 350px;
+}
+
+#climate-video {
+  width: 100%;
+  height: 500px;
+}
+
+#climate-iframe {
+  height: 100%;
+  width: 100%;
+}
+
+#travel-info-container {
+  margin-top: 100px;
+}
+
+ /*three columns styling - travel information page */
 
  .three-columns > * {
   width: 100%;
@@ -355,6 +349,16 @@ display: block;
   width: 33%;
   margin: 2px;
 }
+
+.category-column {
+  margin: 5px 2% 0;
+  column-count: 4;
+  background-color: rgb(248,173,125, 0.2);
+  padding: 10px 30px;
+  border-radius: 4px;
+} 
+
+/* button styling */
 
 .button-container {
   height: 100px;
@@ -390,14 +394,6 @@ display: block;
 .button a:hover {
   color: black;
 }
-
-.category-column {
-  margin: 5px 2% 0;
-  column-count: 4;
-  background-color: rgb(248,173,125, 0.2);
-  padding: 10px 30px;
-  border-radius: 4px;
-} 
 
 /* contact us page and form styling */
 
@@ -487,6 +483,8 @@ input {
   background-position: 0 0;
 
   flex-shrink: 0;
+
+  font-weight: bold;
 }
 
 footer ul {
@@ -505,12 +503,6 @@ footer a {
   position: relative;
 }
 
-.footer-container {
-  width: 100%;
-  height: 60px;
-  font-weight: bold;
-}
-
 footer li:first-child {
   margin-left: auto;
 }
@@ -526,10 +518,6 @@ footer i {
 /* medium screen sizes from */
 
 @media screen and (max-width: 950px) {
-  body {
-    overflow-x: hidden;
-    margin: 0 0 60px;
-  }
 
   .default-container {
     margin: 0 5% 0;

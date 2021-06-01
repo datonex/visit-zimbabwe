@@ -399,7 +399,6 @@ display: block;
 /* contact us page and form styling */
 
 .contact-bg {
-  background: rgb(248,173,125,);
   width: 100%;
   padding: 15px;
 }
@@ -618,7 +617,7 @@ footer i {
   }
 
   h4 {
-    font-size: 1rem,;
+    font-size: 1em,;
   }
 
   .homepage-header {
@@ -738,4 +737,3 @@ footer i {
     font-size: 2rem;
   }
 }
-

@@ -114,6 +114,9 @@ Mockups were made using Balsamiq Wireframes
 - [Fontawesome *v.5.15.3*](https://fontawesome.com/)
   - We use **Font Awesome** javascript link to insert icons in the website to make site more visually appealing and easy to navigate.
 
+- [Favicon](https://favicon.io/)
+  - Favicon.io was used to generate favicon and provided syntax and
+
 - [Google Fonts](https://fonts.google.com/) 
   - Google Fonts was used to import 'Lobster' and 'Open Sans' fonts in the style.css stylesheet.
 
@@ -131,25 +134,79 @@ Mockups were made using Balsamiq Wireframes
 
 ## Testing
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- ### Navigation bar
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+  - When the logo or 'Zimbabwe' text is clicked, the user is redirected to the home page
+  - All links are working and have been tested.
+  - navigation bar is aligned vertically and under the logo for screens smaller than 660px
+  - The navigation bar stays at the top of the page for screens larger than 660px only
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- ### Footer
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  - Footer always sticks to the bottom of the page and was tested by removing all content from the page.
+  - social media link open in a new tab when clicked
+  - When user accesses the 'Contact us' page
+    - Name is required to continue submition
+    - Email field is required and has to be in the correct format.
+    - Text field has to contain at least two characters.
+    - terms and conditions have to be agreeed and clicked on
+    - When 'Submit' is clicked (given all fields have been filled out) the form will be sent
 
-- Prototype code was written and tested using jasmine
-- All code used on the site has been tested to ensure everything is working as expected
-- Site viewed and tested in the following browsers:
-  - Google Chrome
-  - Opera
-  - Microsoft Edge
-  - Mozilla Firefox
+- ### The Image grid
+
+  - Any image that is hovered on (desktop only) the text is uniformly aligned and shows correct information for other deviced the grid is hidden and a continuous prose is displayed instead.
+
+- ### External links
+
+  - All social links in the footer bring the user to the relevant social pages
+  - Links to external websites, the booking and visa button bring the user to the right website in a new tab.
+
+
+- ### Internal Links
+
+  - Logo and text all lead to hompe page
+  - Navigation links lead to relavant pages
+  - Contact us link leads to the correct page for all web pages
+
+### CSS3 validator
+
+Pass
+
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border: 0; width: 88px; height: 31px;" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+
+### HTML5 Validator
+
+**Home Page** - Pass
+**About Page** - Pass
+**Contact Us** - Pass
+**Travel Information Page** - 2 Errors
+
+1. Error: The element a must not appear as a descendant of the button element.
+
+    From line 345, column 63; to line 345, column 118
+
+    `="button"><a href="https://www.evisa.gov.zw/home" target="_blank">Apply`
+
+2. Error: The element a must not appear as a descendant of the button element.
+
+    From line 376, column 38; to line 376, column 89
+
+    `="button"><a href="https://www.expedia.co.uk" target="_blank">Book f`
+
+### Compatibility Testing
+
+- Browser Compatibility
+
+    | Screen size\Browser | Safari           | Opera            | Microsoft Edge   | Chrome           | Firefox          | Internet Explorer |
+    | --------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:-----------------:|
+    | Mobile              |:heavy_check_mark:|Not Tested        |Not Tested.       |:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+    | Desktop             |:heavy_check_mark:|Not Tested.       |Not Tested.       |:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+    | Tablet              |:heavy_check_mark:|Not Tested.       |Not Tested.       |:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+
+- OS Compatibility was tested on iOS 14.5.1, MacOS Catalina, iPadOS 14.5 It is yet to be tested on Unix, Linux, Windows or Solaris Operating Systems.
+- The devices used in this testing include Macbook Pro, iPad Pro, iPhone 12 Pro Max, Iphone 7 Plus.
+
+- The website was exhaustively tested for responsiveness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). Different viewport sizes were simulated ranging from as small as iPhone 5 (320px) to large desktop sizes (1200px and above).
 
 ## Deployment
 

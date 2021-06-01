@@ -129,7 +129,12 @@ The information used to create this site were from a number of sources
   - [Hwange National Park](https://en.wikipedia.org/wiki/Hwange_National_Park)
   - [Chiremba Balancing Rocks](https://zimfieldguide.com/harare/chiremba-epworth-balancing-rocks)
 
-- [10 Facts on Zimbabwe](https://en.uitm.edu.eu/news/10-facts-about-zimbabwe/)
+  - [10 Facts on Zimbabwe](https://en.uitm.edu.eu/news/10-facts-about-zimbabwe/)
+  - [Elephant Hunting](https://qz.com/africa/2005322/zimbabwe-looks-to-elephant-hunting-for-revenue-lost-during-covid/#:~:text=the%20coronavirus%20pandemic.-,With%20an%20estimated%20100%2C000%20elephants%2C%20Zimbabwe%20has%20the%20second%20biggest,Wildlife%20Management%20Authority%20(Zimparks))
+  - [Mana Pools](https://en.wikipedia.org/wiki/Mana_Pools_National_Park)
+  - [Tobacco](https://en.wikipedia.org/wiki/Tobacco_in_Zimbabwe)
+  - [Lake Kariba](https://en.wikipedia.org/wiki/Lake_Kariba)
+
 
 - Climate information copied from
   - [Britanica](https://www.britannica.com/place/Zimbabwe/Climate)
@@ -144,7 +149,6 @@ The information used to create this site were from a number of sources
   - Mt Nyangani summit taken by [Seabifar](https://commons.wikimedia.org/w/index.php?curid=76195310) Own work, under CC BY-SA 4.0 [license](https://creativecommons.org/licenses/by-sa/4.0/)
   - Wild seed pod sculpture by Arthur Fata photographed by [Zaian](https://commons.wikimedia.org/w/index.php?curid=3618743) under CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
   - National Gallery of Zimbabwe taken by [Awinda under](https://commons.wikimedia.org/w/index.php?curid=22137862) CC BY-SA 3.0 [license](https://creativecommons.org/licenses/by-sa/3.0/)
-  - Chivero Rcreational park taken by [Babakathy](https://commons.wikimedia.org/w/index.php?curid=18482024)
 
 - The video used on to show overview of Zimbabwe belongs to Dillan Prinsloo on [Youtube](https://www.youtube.com/watch?v=9xbVx9GmbpY)
 
@@ -155,3 +159,4 @@ I received inspiration for this project from following tourists sites
 - Official Qatar tourism [Visit Qatar](https://www.visitqatar.qa/en/home)
 
 - A generic parallax website by Jolly Kalam [Parallaxsite](https://jolly-kalam-23776e.netlify.app/parallaxsite/)
+

@@ -14,7 +14,9 @@ This website will show the different locations they can visit ranging from natio
 
 This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser [**here**](https://datonex.github.io/visit-zimbabwe/)
 
-### UX
+## UX
+
+### User Stories
 
 - #### Things are slowly getting back to normal due to the pandemic, I want to plan my next holiday
 
@@ -32,9 +34,18 @@ This website uses generic **HTML** and **CSS** animations to route viewers throu
 
   2. I want the navigation bar easily accessible so that I can get where I want quickly
 
-## Features
+### Design
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### Colour Scheme
+
+Initialy the colour scheme of the website was supposed to represent the national colours of the zimbabwean flag. However the colours were too bright and did not blend well together.
+
+Instead, I used the idea that Zimbabwe has a lot of wild life, the colour was meant to mimic the savannah during a sunset. The colour is subtle without grabbing to much attention while giving more focus to the images. The main colour was picked using the colour picker on the header websight to obtain the colour light salmon (#fdcba6) The buttons were matched using the compound approach from [adobe color wheel](https://color.adobe.com/create/color-wheel). to obtain the colour (#71C9A2)
+
+<img src="./assets/images/readme-images/colour-scheme.png"/>
+
+#### Typography
+
 
 ### Existing Features
 

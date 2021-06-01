@@ -12,7 +12,11 @@ This website will show the different locations they can visit ranging from natio
 
 ### How does it work
 
-This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser [**here**](https://datonex.github.io/visit-zimbabwe/)
+This website uses generic **HTML** and **CSS** animations to route viewers through the site. View the website in the browser 
+
+[Live Website](https://datonex.github.io/visit-zimbabwe/)
+
+[GitHub Repository](https://github.com/datonex/visit-zimbabwe/)
 
 ## UX
 
@@ -279,3 +283,4 @@ I received inspiration for this project from following tourists sites
 
 - A generic parallax website by Jolly Kalam [Parallaxsite](https://jolly-kalam-23776e.netlify.app/parallaxsite/)
 
+- Thank you to my mentor for his support and guidance

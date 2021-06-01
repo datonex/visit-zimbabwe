@@ -16,6 +16,7 @@ body {
   width: 100%;
   font-size: 16px;
   line-height: 30px;
+
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -515,6 +516,10 @@ footer i {
   font-size: larger;
 }
 
+.small-screen {
+  display: none;
+}
+
 /* medium screen sizes from */
 
 @media screen and (max-width: 950px) {
@@ -523,78 +528,186 @@ footer i {
     margin: 0 5% 0;
   }
 
-  #menu {
-    clear: left;
-    float: left;
+  .about-zimbabwe-container {
+    height: 500px;
   }
 
    #map-iframe {
-    width: 100%;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 830px) {
 
-  .nav-container {
-    background-color: #fdcba6;
-    width: 100vw;
-    height: 120px;
+  p {
+    font-size: 16px;
   }
 
-  #menu {
-    position: absolute;
-    top: 50px;
+  .large-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block;
+  }
+
+  #top-page {
+    position: fixed;
+    bottom: 80px;
     right: 5px;
-    left: 5px;
-    overflow: hidden;
   }
 
   #header-left {
-    position: absolute;
-    top: 40px;
-    left: 16px;
-  }
-
-  #header-right {
     position: absolute;
     top: 90px;
     left: 16px;
   }
 
-  #intro-content {
-    width: 100%;
-    margin-left: 20%;
-    clear: both;
+  #header-right {
+    position: absolute;
+    top: 140px;
+    left: 16px;
   }
 
-  #flame-lily-container {
-    max-width: 830px;
+  .hide {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
   }
-
-  #flame-lily-content {
-    clear: both;
-  }
-
-  #flame-lily-container img {
-    object-fit: contain;
-    margin: 0;
-  }
-
-  #flame-lilly-img-container {
-    clear: both;
-    width: 100%;
-    margin: 0;
-  }
-
-  #climate-content {
-    clear: both;
-    width: fit-content;
-    margin-left: 10%;
-  }
-
+    
   #climate-video {
-    clear: both;
-    object-fit: contain;
+    height: 300px;
+  }
+
+  .contact-container {
+    height: 100%;
   }
 }
+
+@media screen and (max-width: 660px) {
+
+  .nav-container {
+    background-color: #fdcba6;
+    width: 100vw;
+    height: 180px;
+    position: static;
+  }
+
+  #menu ul {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
+    line-height: 30px;
+  }
+
+  #menu {
+    position: relative;
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem,;
+  }
+
+  .homepage-header {
+    margin-top: 0;
+  }
+  
+  #header-left {
+    display: none;
+  }
+
+  #header-right {
+    display: none;
+  }
+
+  .about-zimbabwe-container {
+    margin-top: 20px;
+  }
+
+  #top-page {
+    display: none;
+  }
+
+  .float-right {
+    clear: none;
+  }
+
+  .float-left 
+  {
+    clear: none;
+  }
+
+  .pack-image-left {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2px; 
+    margin: 10px 0;
+  }
+  
+  .pack-image-right {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2px; 
+    margin: 10px 0;
+  }
+  
+  .two-column-text-left {
+    margin: 10px 0;
+  }
+  
+  .two-column-text-right {
+    margin: 10px 0;
+  }
+  
+  .page-heading {
+    padding: 10px;
+  }
+  
+  .align-text-left {
+    text-align: left; 
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 1em 0 0;
+  }
+
+  footer li:first-child {
+    margin-left: 0;
+  }
+
+  footer li:last-child {
+    margin-right: 0;
+  }
+
+  footer i {
+    font-size: 2rem;
+  }
+}
+

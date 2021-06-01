@@ -46,6 +46,13 @@ Instead, I used the idea that Zimbabwe has a lot of wild life, the colour was me
 
 #### Typography
 
+- Font used for headings was Lobster with a back-up font of sans-serif. The font is eye catching and decorated white still easy to read.
+
+<img src="./assets/images/readme-images/lobster-font.png" />
+
+- Font used for main text was Open Sans with a back-up font of sans-serif. The font is easy to read and well spaced out.
+
+<img src="./assets/images/readme-images/open-sans-font.png" />
 
 ### Existing Features
 

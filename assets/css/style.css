@@ -209,7 +209,7 @@ h4 {
 .hide {
   display: none;
   position: fixed;
-  right: 29%;
+  right: 20%;
   top: 30%;
   margin: 0 4px;
   height: fit-content;
@@ -370,7 +370,6 @@ display: block;
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -617,7 +616,7 @@ footer i {
   }
 
   h4 {
-    font-size: 1em,;
+    font-size: 1rem;
   }
 
   .homepage-header {

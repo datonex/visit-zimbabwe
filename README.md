@@ -66,22 +66,39 @@ Mockups were made using Balsamiq Wireframes
 
 ### Existing Features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### Common Features Across All Pages
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- [x] **Header** - allows user to easily navigate across all pages
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - Header is fixed to top of page for easy access (desktop and large tablets)
+  - Zimbabwe logo and text are positioned on the left and are links that take you to the homepage
+  - Navigation is place on the right on the logo for easy access (under logo for mobile)
+  - Navigation links change colour when hovered over. This lets the visitor know that it is clickable.
+  - Navagation link is underlined to let user know what page they are on
+  - Entire header disappears for mobile devices
+  - Colors have been chosen with optimum contrast in mind to be pleasant to the eye.
+- [x] **Links** that are hovered over
+  - All links that are surrounding text have been underlined and change color when hovered over. This helps the user to identify external links. (except logo)
+- [x] **Navigation banner**
+  - Navigation banner is the same across all pages to give uniformity and familiarity
+  - bacground image on home is scrorable to give a more fun user experience
+- [x] **Accessibility**
+  - All images have aria labels in case they don't load and for the visually impared
+- [x] **Buttons**
+  - All buttons have the same styling and they invert colours when hovered (except for scroll to top button)
+- [x] **Responsiveness**
+  - All pages work well with many screen sizes
+- [x] **Footer**
+  - Footer sticks to the bottom of the page, regardless of the amount of content. This aids the overall user experience.
+  - All content have near uniform layout to give a nice and enganging flow of text and images
+  - Social links have been grouped together
+  - 'Contact us' is form for feedback and any question the user might have 
 
-- Eye catching front page
-  - Sliding picture box
-- Information page.
-  - Sidebar to navigate to different parts of the information
-- Media page with plenty of pictures and a video
-- Links page to other sites with information about Hippopotami
-- Quiz page for viewers to test their knowledge
-  - Form for viewers to input their answers or check the correct box
-  - Submit button so viewers can see how they scored on the quiz
+### Specific to Pages
+
+- [x] **Home Page**
+
+  - Image grid to easily see a handfull of places the user can visit. When the mouse hover's you get addition information about the location
 
 ### Features Left to Implement
 

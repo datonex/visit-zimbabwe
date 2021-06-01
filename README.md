@@ -58,6 +58,12 @@ Instead, I used the idea that Zimbabwe has a lot of wild life, the colour was me
 
 - Images on the website were the top if not second priority on the website. They needed to supplement the text and offer visiual aid to illustrate favourable tourist locations.
 
+#### Mockups
+
+Mockups were made using Balsamiq Wireframes
+
+[Mockup](./assets/planning/mockup-1.pdf)
+
 ### Existing Features
 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z

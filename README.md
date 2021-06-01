@@ -8,7 +8,7 @@ This is a website for people to learn about Zimbabwe and show places they can vi
 
 ### What does it do?
 
-This website will show the different locations they can visit ranging from national parks to national history. it also provides travel information, how to reach the country and any important documemnts and medical issues that need to be address before entering the country
+This website will show the different locations they can visit ranging from national parks to national history. it also provides travel information, how to reach the country and any important documemnts and medical issues that need to be addressed before entering the country
 
 ### How does it work
 
@@ -16,13 +16,21 @@ This website uses generic **HTML** and **CSS** animations to route viewers throu
 
 ### UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- #### Things are slowly getting back to normal due to the pandemic, I want to plan my next holiday
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+  1. I want to easily navigate the site relatively easily
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+  2. I want to be able to see a balance of text, images and some video to get a glimpse of where I will be visiting
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+  3. I want to be able to access links that direct me to important websites easily
+
+  4. I want some clicking interaction with the page so that I don't get bored
+
+- #### As a previous who is using the website for reference
+
+  1. I want to have access to the website on any device and on the go
+
+  2. I want the navigation bar easily accessible so that I can get where I want quickly
 
 ## Features
 

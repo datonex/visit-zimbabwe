@@ -456,7 +456,7 @@ input {
 }
 
 .submit-button {
-  margin: 10px 0 45% 50%;
+  margin: 10px auto;
   border-radius: 4px;
   padding: 10px 30px;
   text-align: center;
@@ -705,6 +705,11 @@ footer i {
 
   .category-column {
     column-count: 2;
+  }
+
+  .contact-container {
+    margin: 0 auto;
+    width: 90%;
   }
 
   .footer {

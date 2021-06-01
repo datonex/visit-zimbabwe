@@ -684,6 +684,29 @@ footer i {
     text-align: center;
   }
 
+  .three-columns {
+    display: block;
+  }
+
+  .left-third-width {
+    width: 100%;
+    margin: 2px;
+  }
+  
+  .centre-third-width {
+    width: 100%;
+    margin: 10px 2px;
+  }
+  
+  .right-third-width {
+    width: 100%;
+    margin: 10px 2px;
+  }
+
+  .category-column {
+    column-count: 2;
+  }
+
   .footer {
     height: 300px;
   }

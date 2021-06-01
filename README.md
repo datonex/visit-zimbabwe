@@ -42,17 +42,21 @@ Initialy the colour scheme of the website was supposed to represent the national
 
 Instead, I used the idea that Zimbabwe has a lot of wild life, the colour was meant to mimic the savannah during a sunset. The colour is subtle without grabbing to much attention while giving more focus to the images. The main colour was picked using the colour picker on the header websight to obtain the colour light salmon (#fdcba6) The buttons were matched using the compound approach from [adobe color wheel](https://color.adobe.com/create/color-wheel). to obtain the colour (#71C9A2)
 
-<img src="./assets/images/readme-images/colour-scheme.png"/>
+<img src="./assets/images/readme-images/colour-scheme.png" height="100px"/>
 
 #### Typography
 
 - Font used for headings was Lobster with a back-up font of sans-serif. The font is eye catching and decorated white still easy to read.
 
-<img src="./assets/images/readme-images/lobster-font.png" />
+<img src="./assets/images/readme-images/lobster-font.png" height="50px" />
 
 - Font used for main text was Open Sans with a back-up font of sans-serif. The font is easy to read and well spaced out.
 
-<img src="./assets/images/readme-images/open-sans-font.png" />
+<img src="./assets/images/readme-images/open-sans-font.png" height="50px"/>
+
+#### Imagery
+
+- Images on the website were the top if not second priority on the website. They needed to supplement the text and offer visiual aid to illustrate favourable tourist locations.
 
 ### Existing Features
 

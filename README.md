@@ -210,25 +210,24 @@ Pass
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This website was published using [GitHub Pages](https://pages.github.com/). 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Go to the GitHub.com and log in.
+2. On the left-hand side, you'll see all your repositories, select the appropriate one.
+3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+4. Scroll down till you see 'Pages' heading.
+5. Under the 'Source' click on the dropdown and select 'master branch'
+6. The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
+7. It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
 
 ### Contribution
 
-1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
-2. After you've that you'll need to make sure that you have **npm** installed
-3. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
-5. Once **http-server** is installed run ```http-server -c-1```
-6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request
+1. Firstly you will need to clone this repository by running the ```git clone <https://github.com/datonex/visit-zimbabwe/>``` command
+2. If using VS Code type make sure you have th Git extension installed then type about code into your terminal
+3. Download the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension, one installed find the go live button at the bottom right of your vscode window
+4. The project will now run on [localhost](http://127.0.0.1:5500/)
+5. If using Gitpod use the command `python3 -m http.server` 
+6. Make changes to the code and if you think it belongs in here then just submit a pull request
 
 ## Credits
 

@@ -102,24 +102,34 @@ Mockups were made using Balsamiq Wireframes
 
 ### Features Left to Implement
 
-- Add a page where you can make a booking for a particular destinations. this includes adding a vitual online basket so that users can see what they have already selected (requires **Javascript** knowledge) Fore this reason I decided to removing the booking page from the website becaue it would be too incomplete and not provide a positive user experience.
+- Add a page where you can make a booking for a particular destinations. this includes adding a vitual online basket so that users can see what they have already selected (requires **Javascript** knowledge) For this reason I decided to remove the booking page from the website becaue it would be too incomplete and not provide a positive user experience.
+
+- hide the scroll to top button at the beginning of page
 
 ## Technologies Used
 
-n this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- **HTML** and **CSS**
+- [**HTML**](https://en.wikipedia.org/wiki/HTML5) and [**CSS**](https://en.wikipedia.org/wiki/CSS)
   - Base languages used to create website
+
 - [Fontawesome *v.5.15.3*](https://fontawesome.com/)
   - We use **Font Awesome** javascript link to insert icons in the website to make site more visually appealing and easy to navigate.
 
+- [Google Fonts](https://fonts.google.com/) 
+  - Google Fonts was used to import 'Lobster' and 'Open Sans' fonts in the style.css stylesheet.
+
+- [Visual Studio Code](https://code.visualstudio.com/) 
+  - Source-code editor optimised fro debugging, syntax hylighting and extenstion support
+
+- [Git](https://git-scm.com/)
+  - Git was used to allow for tracking of any changes in the code and for the version control.
+
+- [Github](https://github.com/)
+  - GitHub is used to host the project files and publish the live website by using Git Pages.
+
+- [TinyPNG](https://tinypng.com/)
+  - Used to reduce resolution on images
+
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page

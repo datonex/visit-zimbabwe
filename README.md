@@ -119,7 +119,7 @@ Mockups were made using Balsamiq Wireframes
   - We use **Font Awesome** javascript link to insert icons in the website to make site more visually appealing and easy to navigate.
 
 - [Favicon](https://favicon.io/)
-  - Favicon.io was used to generate favicon and provided syntax and
+  - Favicon.io was used to generate favicon and copied the syntax
 
 - [Google Fonts](https://fonts.google.com/) 
   - Google Fonts was used to import 'Lobster' and 'Open Sans' fonts in the style.css stylesheet.
@@ -134,7 +134,7 @@ Mockups were made using Balsamiq Wireframes
   - GitHub is used to host the project files and publish the live website by using Git Pages.
 
 - [TinyPNG](https://tinypng.com/)
-  - Used to reduce resolution on images
+  - Used to reduce resolution of images
 
 ## Testing
 
@@ -153,7 +153,7 @@ Mockups were made using Balsamiq Wireframes
     - Name is required to continue submition
     - Email field is required and has to be in the correct format.
     - Text field has to contain at least two characters.
-    - terms and conditions have to be agreeed and clicked on
+    - terms and conditions have to be ticked
     - When 'Submit' is clicked (given all fields have been filled out) the form will be sent
 
 - ### The Image grid
